@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "My first CLI Gem: food_ideas"
-date:   2016-06-16 02:13:59 +0000
+date:   2016-06-15 22:13:59 -0400
 ---
 
 <iframe src="//giphy.com/embed/VeBeB9rR524RW" width="480" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 So this is my first ruby gem. The idea behind this gem is to have it help you decide on what you would like to eat. It will prompt you to enter up to 5 ingredients and it will spit back at you a list of recipes you may want to try out. More results will be presented on the list in the future. The idea came from me being undecisive of what I wanted to eat since I pretty much eat the same thing every day (quick food has been a routine for me lately). So I wanted something new but wasn't really craving anything, so I thought, this can be my first program. I've thought about making an application like this for a while now and this seemed like the perfect moment. 
 
-### Walkthrough
+## Walkthrough
 To install this wonderful application, all you have to do is enter 'gem install food_ideas' into your terminal. 
 
 When you run the gem, you will be greeted and given instructions on what to do to retreive the recipes. 
@@ -28,7 +28,7 @@ If you enter 'exit' you will be asked if you would like to enter a new set of in
 This gem currently scrapes (using nokogiri and open-uri) the 'foodnetwork' to retrieve recipes. With plans on adding 'allrecipes' next and other worthy websites. Continued ideas below.
 
 
-### My concerns, ideas and so on
+## My concerns, ideas and so on
 
 So my initial idea what to have a food (scheduler?) planning application. In the long run, that's what it will be but for the most part it's a gem that gives recipes based on the ingredients of your choosing (or like I had in my mind, ingredients I have in my fridge). Overall still proud of what I’ve done even since I believed this project was well above my skill level. I had to relearn scraping for the Student Scraper final project but so far I’ve realized I’m pretty good with scraping so far. I’ve run into weirder websites that are a bit more complicated to scrape from but nothing too complex yet. 
 
