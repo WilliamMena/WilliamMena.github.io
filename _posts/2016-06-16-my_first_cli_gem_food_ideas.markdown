@@ -19,7 +19,7 @@ You then have the option either search recipes for up to 5 ingredients. You can 
 
 ![description](http://i.imgur.com/16VZjJp.png)
 
-If you look at the last line in the picture above, you can see some more options to continue navigating through the gem. Once inside a recipe you can enter the lines 'list' to see the recipe list again. 'exit' to leave this set of recipes. If you type 'url', a direct link to the recipe will open in your browser!
+If you look at the last line in the picture above, you can see some more options to continue navigating through the gem. Once inside a recipe you can enter the lines 'list' to see the recipe list again or 'exit' to leave this set of recipes. If you type 'url', a direct link to the recipe will open in your browser!
 
 If you enter 'exit' you will be asked if you would like to enter a new set of ingredients for more recipes. If you do, enter 'y'. If you want to continue to exit out of the gem you can type 'n'. 
 
