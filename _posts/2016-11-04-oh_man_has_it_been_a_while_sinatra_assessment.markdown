@@ -32,29 +32,35 @@ Here is where you can view all the recipes under their specified category. Curre
 But as the site grows, I'm going to implement in the categories page that only a specific number of recipe names will be displayed so the categories page doesn't get too overcrowded. That leads to the user having to select the specific category for more recipes to choose from. 
 
 ### /recipes
+![Imgur](http://i.imgur.com/JUtHiQD.png)
+
 Well this is just a list of all the recipes that have been created so far. It felt pretty nessesary when I was building it so I'm keeping it. I think it will be more significant when I add the feature to limit the number of recipes on the categories page still leaving it here.
 
 #### A Recipe View
+![Imgur](http://i.imgur.com/Dp0ekee.png)
+
 So the recipe will show the Recipe name, the person who created the recipe. Serving size which is currently defined as a string (used to be an integer) so you can keep the number for your recipe or you can add the string of '2 small children' or '3 football players'.
 
 Cook time is also a string so you won't be limited to a minute or hour parameter. There is also an ingredients section which will display all of the current recipes ingredients and then a directions section showing you the direcitions which we can all guess what goes in there.
 
 ### /users
+![Imgur](http://i.imgur.com/J1P7KLG.png)
 list of all the current user's registered to the site with links to their specific profile.
 
 #### User Profile
+![Imgur](http://i.imgur.com/jjurqTA.png)
 Here is a page dedicated to one of the great people who decided to help me embark in this journey or creating has_many_recipes. My good friend Food Network Scrapert's profile page. Here you can see that this page has a bio section, if the user decides to fill it in. The purpose I see for the bio is describing the person and probably what type of food the specific user likes to make, if there is a certain style that the person follows when cooking. Here you can also see all the recipes the user created with a small preview of the recipe. The preview shows the cook time for the meal and a preview of the ingredients used. For the full recipe, you can click on the recipe's title. 
 
 # 'Logged on' features
 Alright. Now that we got past the main features of the page we can have a look at the features we get when we sign up. 
-<#-- Picture to 'test' homepage -->
 Here you should notice 4 things aside from the simple layout. 
+![Imgur](http://i.imgur.com/YwT58ZY.png)
 
 ### Random Recipe
 You can probably guess by the header but what this feature does is that as soon as you log in, it gives you a random recipe from the master list in our app. The purpose of this was to give you something new to try if you're ever feeling adventurous in the food department. 
 
 ### Follow List & Your Feed
-Below your random recipe there is a section dedicated to follow list. As a new user, what should be displayed is a message along the lines of 'you aren't following anyone' and 'no one is following you'. Your feed should be empty as well because you aren't following anyone. But we'll get to the follow section very soon, I promise. Once I start explaining the specifics, it might get very lengthy.
+Below your random recipe there is a section dedicated to follow list. As a new user, what should be displayed is a message along the lines of 'you aren't following anyone' and 'no one is following you'. Your feed should be empty as well because you aren't following anyone. But we'll get to the follow section very soon, Once I start explaining the specifics, it might get very lengthy.
 
 ### Menu
 Now that you're logged in, you get a quick drop down menu. Here you will be able to access your personal (1) profile page. When signing up you are given an option to fill in bio data. Once you view your personal profile page, you will be given the option to edit this bio to your liking. Another item from the dropdown menu is your (2) Follower list. Here you can view all the users you are following and all the users following you. The menu also gives you an option create a (3) new recipe. It takes you to a form where you can fill in all the data required and give the recipe a category for it to be listed under. If the category you want to use isn't listed, you can create one directly in the form. The drop down meny also lets you (4) log out of your account. 
@@ -67,11 +73,13 @@ OR
 <iframe src="//giphy.com/embed/n4oKYFlAcv2AU?html5=true" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 
-I know, I know. Finally. We're here. Here it is. The moment we've all been waiting for. Please be like Starlord and not Michael Scott. I hope this is interesting to look through and I'm not sure if this is covered later on in the curriculum so I'm sorry if I butcher this horribly. 
+I know, I know. Finally. We're here. Here it is. Please be like Starlord and not Michael Scott. I hope this is interesting to look through and I'm not sure if this is covered later on in the curriculum so I'm sorry if I butcher this horribly. 
 
 So now that we are logged in, we have access to a follow feature. The way we can follow someone is through their profile. Now that you are logged in, you can see a follow button. Once you click this button you will receive a notification saying you're following this user. For the sake of this excercise I'm going to follow 3 users. Now when we go back to our home page a couple things change.
 
 ### Feed & Follow List
+
+![Imgur](http://i.imgur.com/t1HMVL6.png)
 
 We now have content in our feed :D . The Way I set up our feed is that the application will display all the users you follow alongside of the last recipe they created for the website. The recipe will be a preview, similar to the one of 'random recipe' but more characters will be visible. Now you might also notice that the text under follow list has changed. It now mentions how many followers you have or how many people are following you. If you click the follow list title, it will take you to the follow list page.
 
