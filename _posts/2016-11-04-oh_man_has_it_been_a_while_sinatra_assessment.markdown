@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Oh man has it been a while... Sinatra Assessment"
-date:   2016-11-04 03:39:08 +0000
+date:   2016-11-03 23:39:08 -0400
 ---
 
 ###### draft
@@ -19,6 +19,9 @@ Well it's been months since my last blog post. A lot has changed in my life sinc
 
 # What is my app and what does it do?!
 WELL... For my Sinatra Assessment project I decided to make another recipe related app (It's my last one, I promise). Except this one I believe is much cooler. I called it has_many_recipes and it's an application where you can create and submit recipes for everyone to see. So that mean's you can also view other peoples recipes who have logged in and created recipes them selves. All the recipes are categorized by a 'category' tag, which basically defines if the recipe is for meant to be eaten for breakfast, lunch, midnight snack, desert or what ever else you can think of.
+
+![home page](http://i.imgur.com/z0ISvH9.jpg)
+
 
 The app has features for users who are logged in and also for those logged off. So for both type of users you can view all the recipe categories, a seperate list with all the recipes created and also a list for all the users currently signed up. The users who are logged on have a couple more features but lets get a little more into the logged off features.
 
