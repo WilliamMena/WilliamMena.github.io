@@ -22,10 +22,11 @@ WELL... For my Sinatra Assessment project I decided to make another recipe relat
 
 ![home page](http://i.imgur.com/z0ISvH9.jpg)
 
-
 The app has features for users who are logged in and also for those logged off. So for both type of users you can view all the recipe categories, a seperate list with all the recipes created and also a list for all the users currently signed up. The users who are logged on have a couple more features but lets get a little more into the logged off features.
 
 ### /categories
+[Imgur](http://i.imgur.com/Wkni8ZB.png)
+
 Here is where you can view all the recipes under their specified category. Currently I have every recipe being displayed next to the category name. All the recipes names are links to their specific page and each category link will take you to a page displaying all the recipies for that specific category. 
 
 But as the site grows, I'm going to implement in the categories page that only a specific number of recipe names will be displayed so the categories page doesn't get too overcrowded. That leads to the user having to select the specific category for more recipes to choose from. 
