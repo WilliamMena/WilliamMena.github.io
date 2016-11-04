@@ -24,14 +24,14 @@ WELL... For my Sinatra Assessment project I decided to make another recipe relat
 
 The app has features for users who are logged in and also for those logged off. So for both type of users you can view all the recipe categories, a seperate list with all the recipes created and also a list for all the users currently signed up. The users who are logged on have a couple more features but lets get a little more into the logged off features.
 
-### /categories
+## /categories
 ![Imgur](http://i.imgur.com/Wkni8ZB.png)
 
 Here is where you can view all the recipes under their specified category. Currently I have every recipe being displayed next to the category name. All the recipes names are links to their specific page and each category link will take you to a page displaying all the recipies for that specific category. 
 
 But as the site grows, I'm going to implement in the categories page that only a specific number of recipe names will be displayed so the categories page doesn't get too overcrowded. That leads to the user having to select the specific category for more recipes to choose from. 
 
-### /recipes
+## /recipes
 ![Imgur](http://i.imgur.com/JUtHiQD.png)
 
 Well this is just a list of all the recipes that have been created so far. It felt pretty nessesary when I was building it so I'm keeping it. I think it will be more significant when I add the feature to limit the number of recipes on the categories page still leaving it here.
@@ -43,9 +43,9 @@ So the recipe will show the Recipe name, the person who created the recipe. Serv
 
 Cook time is also a string so you won't be limited to a minute or hour parameter. There is also an ingredients section which will display all of the current recipes ingredients and then a directions section showing you the direcitions which we can all guess what goes in there.
 
-### /users
+## /users
 ![Imgur](http://i.imgur.com/J1P7KLG.png)
-list of all the current user's registered to the site with links to their specific profile.
+A list of all the current user's registered to the site with links to their specific profile.
 
 #### User Profile
 ![Imgur](http://i.imgur.com/jjurqTA.png)
