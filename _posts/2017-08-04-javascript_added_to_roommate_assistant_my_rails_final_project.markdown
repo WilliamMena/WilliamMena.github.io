@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Javascript added to roommate_assistant. My rails final project."
-date:   2017-08-04 05:26:17 +0000
+date:   2017-08-04 01:26:18 -0400
 ---
 
 
