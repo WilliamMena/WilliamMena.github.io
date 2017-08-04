@@ -20,6 +20,6 @@ One other grievance I had while doing this project is how handlebars and the chr
 I see myself using AJAX and Javascript a lot more on my projects. Now with the knowledge I’ve gained from this, I’m less intimidated by this magical language. If I didn’t need to get through the curriculum, I already see even more fixes to my project, like making ‘live’ edit forms. So once you click edit on, les say a chore, instead of taking to a new page, we can replace the location of the test with an input box for the new one, all without loading a new page. This and more things come to mind.
 
 But for an in depth look at my project, here is the github URL
-https://github.com/WilliamMena/roommate_assistant
+[GITHUB - roommate_assistant](https://github.com/WilliamMena/roommate_assistant)
 
 
